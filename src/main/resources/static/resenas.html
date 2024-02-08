@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Librería barveña</title>
+        <meta charset="UTF-8"/>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <aside>
+            <h2>Acerca de nosotros</h2>
+            <p class="text">Bienvenido a Librería barveña, tu destino literario para explorar mundos infinitos, desatar la creatividad y adquirir conocimientos que transformarán tu mente.</p>
+            <p>Información de contacto:</p>
+            <p>Teléfono: 8888 8888</p>
+            <p>Correo: contacto@libreriabarvena.com</p>
+            <p>Ubicación</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.55929233939372!2d-84.12373527921082!3d10.021094091718279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fa98f0803527%3A0x410d6d73b4b6fad9!2sBarva%20Central%20Park!5e0!3m2!1sen!2scr!4v1707078313541!5m2!1sen!2scr" 
+                    width="330" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </aside>
+    
+    <body>
+       <header class="encabezado">
+            <nav class="navegacion">
+                <a class="logo nav-link" href="index.html">Librería barveña</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina2.html">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="index.html">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="carro.html">Carro</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="edificio.html">Edificio</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="seleccion.html">Seleccion</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="resenas.html">Reseñas</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="consultas.html">Consultas</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+      
+        <section>
+             <h2>Reseñas de nuestros clientes</h2>
+             <p>Descubre lo que nuestros clientes dicen sobre su experiencia. Sus palabras son el reflejo de la conexión especial que se experimenta al explorar nuestras estanterías y sumergirse en el mundo de las letras. Desde recomendaciones personalizadas hasta momentos de tranquilidad en nuestros rincones de lectura, estas reseñas capturan la esencia de lo que hace única a nuestra librería. ¡Explora sus experiencias y únete a la comunidad de lectores satisfechos!</p>
+            <article>
+                <h3 class="titulo">Atención Personalizada y Ambiente Relajado</h3>
+                <p>La atención personalizada marca la diferencia. El equipo no solo conoce bien su selección de libros, sino que también está listo para ofrecer sugerencias útiles. El ambiente relajado y las áreas de descanso hacen que la visita sea más que una simple compra; se convierte en un momento agradable. Una librería que hace que encontrar el próximo libro sea fácil y placentero.</p>
+            </article>
+            
+            <article>
+                <h3 class="titulo">Un Rincón Acogedor para Lectores</h3>
+                <p>La disposición organizada por géneros hizo que encontrar lo que buscaba fuera fácil y rápido. El personal, siempre sonriente y dispuesto a ayudar, hizo que la experiencia fuera aún mejor. Además, los asientos cómodos y bien iluminados invitan a disfrutar de un buen libro, convirtiendo la librería en un lugar perfecto para escapar por un rato.</p>
+            </article>
+             
+             <h2>Adelante haz tu propia reseña de nuestros servicios:</h2>
+            
+            <article>
+                <form action="/resenas/agregar"
+                      method="post">
+                    Título: <input type="text" name="titulo" value="" size="20" /><br/>
+                    Detalles: <input type="text" name="titulo" value="" size="150" /><br/>
+                    <input type="submit" value="Enviar" />
+                </form>
+            </article>
+             
+        </section>
+        
+        <footer>
+            &copy; Derechos Reservados Librería barveña 2024 
+        </footer>
+    </body>
+</html>
